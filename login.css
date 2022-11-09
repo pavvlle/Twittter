@@ -1,0 +1,303 @@
+body{
+    font-family: Arial;
+    height: 3000px;
+}
+
+.overlay{
+    background-color: rgba(0,0,0,0.3);
+
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right:0;
+    left: 0;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  
+
+}
+.modal
+{
+    background-color: white;    
+    border-radius:12px ;
+    padding:15px 150px ;
+    width: 300px;
+    height: 550px;
+
+    position: relative;
+    overflow: auto;
+
+}
+
+.logo-div{
+    margin-bottom: 30px;
+    
+
+    margin: 0;
+          
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 23px;
+    transition: background-color 0.5s;
+    font-size: 20px;
+    opacity: 1;
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.logo
+{
+    height: 26px;
+    object-fit: cover;
+ 
+
+}
+
+.naslov{
+    font-size: 31px;
+    font-weight: bold;
+    width: 215px;
+    margin-bottom: 20px;
+
+
+}
+.prijavi-se{
+    display: flex;
+   
+     border: 1px rgb(223, 223, 223) solid ;
+     border-radius: 20px;
+     padding: 3px;
+     margin-bottom: 10px;
+     cursor: pointer;
+     transition: background-color 0.5s;
+     
+
+}
+
+.prijavi-se:hover{
+    background-color: rgb(236, 236, 236);
+}
+.prijavi-se:active{
+    background-color: rgb(214, 245, 234);
+}
+.logo1{
+    height: 18px;
+    object-fit: cover;
+    padding: 5px;
+}
+.profile-picture{
+    padding: 5px;
+}
+.profile-picture img{
+    height: 18px;
+    object-fit: cover;
+    border-radius: 32px;
+
+
+}
+.text{
+   flex: 1;
+
+}
+
+.modal-header{
+    position:fixed;
+}
+
+@media screen and (max-width:700px)
+{
+    .modal
+    {
+        background-color: white;
+        border-radius:12px ;
+        padding:15px 150px ;
+        width: 100%;
+        height: 100%;
+
+        position: relative;
+        overflow: auto;
+    }
+}
+
+.ime{
+    font-size: 13px;
+    font-weight: 500;
+
+}
+.mail{
+    font-size: 12px;
+    color: gray;
+}
+.prijavi-se-1{
+    display: flex;
+    align-items: center;
+
+   
+     border: 1px rgb(223, 223, 223) solid ;
+     border-radius: 20px;
+     padding: 3px;
+     padding: 5px 20px;
+     margin-bottom: 10px;
+     cursor: pointer;
+     transition: background-color 0.5s;
+
+}
+.prijavi-se-1:hover{
+    background-color: rgb(224, 221, 221);
+
+}
+.prijavi-se-1:active{
+   background-color: rgb(194, 192, 192);
+}
+
+.apple
+{
+    font-weight: 700;
+    font-size: 16px;
+
+}
+.ili-ili{
+    margin-bottom: 20px;
+    margin-top: -10px;
+}
+
+.ili span{
+    background:#fff; 
+    padding:0 10px; 
+}
+
+h4 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 270px;
+    margin-left: 15.5px;
+}
+.ili{
+  font-weight:400;
+  font-size:13px;
+
+  width: 100%; 
+  text-align: center; 
+  border-bottom: 1px solid #000; 
+  line-height: 0.1em;
+  margin: 10px 0 20px; 
+}
+
+.textbox{
+    display: flex;
+    margin-bottom: 15px;
+    margin-top: -20px;
+}
+.placehold{
+    flex: 1;
+    padding: 20px 10px;
+    font-size: 18px;
+    border: 1px rgb(223, 223, 223) solid ; 
+    border-radius: 4px;
+}
+.dalje-container{
+ 
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin-bottom: 20px;
+    background-color: black;
+    padding: 10px 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: opacity 0.5s;
+}
+.dalje-container:hover{
+    opacity: 0.85;
+
+}
+.dalje-container:active{
+    opacity:0.6;
+
+}
+.dalje{
+   
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.lozinka-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin-bottom: 20px;
+    padding: 10px 5px;
+    border-radius: 20px;
+    border: 1px rgb(223, 223, 223) solid ;
+    cursor: pointer;
+    transition:opacity 0.5s;
+}
+.lozinka-container:hover{
+    background-color: rgb(233, 233, 233);
+
+}
+.lozinka-container:active{
+    background-color: rgb(214, 211, 211);
+}
+.lozinka{
+    color:black;
+    font-size: 18px;
+    font-weight: bold;
+}
+.close{
+     font-weight:500;
+     cursor: pointer;
+}
+
+.modal-header
+{
+    display: flex;
+    position: fixed;
+    width:inherit;
+    height:15%;
+    z-index: 100;
+}
+
+.krug{
+    
+    margin: 0;
+          
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 23px;
+    transition: background-color 0.5s;
+
+    font-size: 20px;
+    opacity: 1;
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    top: 5%;
+    left: 3%;
+    transform: translate(-50%, -50%);
+
+
+}
+.krug:hover{
+    background-color: rgb(207, 207, 207);
+
+}
